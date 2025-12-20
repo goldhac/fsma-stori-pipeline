@@ -1,0 +1,31 @@
+PS C:\Users\goldn\Documents\Webscraping pipeline>
+PS C:\Users\goldn\Documents\Webscraping pipeline> python main.py
+>> 
+2025-11-27 12:38:56,195 [INFO] Logging initialized successfully. Log file: logs\stori_downloader.log
+2025-11-27 12:38:56,195 [INFO] Starting STORI Annual Report Downloader.
+2025-11-27 12:38:56,198 [INFO] Loaded 274 issuers from issuers.json.txt
+2025-11-27 12:38:56,198 [INFO] Processing issuer 2VALORISE (728c7cf4-dedd-4c11-a327-d112c2b795e1)
+2025-11-27 12:38:56,198 [INFO] Searching STORI for companyId=728c7cf4-dedd-4c11-a327-d112c2b795e1
+2025-11-27 12:38:56,199 [INFO] POST https://webapi.fsma.be/api/v1/en/stori/result with JSON body: {'startRowIndex': 0, 'pageSize': 50, 'sortDirection': 'Ascending', 'documentTypeId': '9813c451-9fd4-41ba-ba7d-4e0dda0d3051', 'isDocumentTypeGroup': False, 'publicationStart': '2011-01-01', 'companyId': '728c7cf4-dedd-4c11-a327-d112c2b795e1'}
+2025-11-27 12:39:02,810 [INFO] Successfully received JSON response from https://webapi.fsma.be/api/v1/en/stori/result
+2025-11-27 12:39:02,812 [INFO] Issuer 728c7cf4-dedd-4c11-a327-d112c2b795e1: resultCount=8, items=8
+2025-11-27 12:39:02,813 [INFO] Downloading 2VALORISE (LEI=5493002PV2OV5MP41Y57) → downloads\2VALORISE_5493002PV2OV5MP41Y57_AnnualReport_2018-04-24.pdf
+2025-11-27 12:39:02,814 [INFO] Downloading fileDataId=8ba4b449-71e9-4c97-8e26-933d64574389 from https://webapi.fsma.be/api/v1/en/stori/download
+2025-11-27 12:39:08,846 [INFO] Downloaded 1950116 bytes for fileDataId=8ba4b449-71e9-4c97-8e26-933d64574389 (Content-Type: application/octet-stream)
+2025-11-27 12:39:08,849 [INFO] Saved 1950116 bytes to downloads\2VALORISE_5493002PV2OV5MP41Y57_AnnualReport_2018-04-24.pdf
+2025-11-27 12:39:08,850 [INFO] Downloading 2VALORISE (LEI=5493002PV2OV5MP41Y57) → downloads\2VALORISE_5493002PV2OV5MP41Y57_AnnualReport_2017-04-28.pdf
+2025-11-27 12:39:08,850 [INFO] Downloading fileDataId=632e042b-4883-41fb-9c09-3659c351fe8d from https://webapi.fsma.be/api/v1/en/stori/download
+2025-11-27 12:39:12,103 [INFO] Downloaded 1063922 bytes for fileDataId=632e042b-4883-41fb-9c09-3659c351fe8d (Content-Type: application/octet-stream)
+2025-11-27 12:39:12,106 [INFO] Saved 1063922 bytes to downloads\2VALORISE_5493002PV2OV5MP41Y57_AnnualReport_2017-04-28.pdf
+2025-11-27 12:39:12,107 [INFO] Downloading 2VALORISE (LEI=5493002PV2OV5MP41Y57) → downloads\2VALORISE_5493002PV2OV5MP41Y57_AnnualReport_2016-04-26.pdf
+2025-11-27 12:39:12,107 [INFO] Downloading fileDataId=8b7e8505-ac07-4f86-8d5c-db240d20f680 from https://webapi.fsma.be/api/v1/en/stori/download
+2025-11-27 12:39:14,374 [INFO] Downloaded 830093 bytes for fileDataId=8b7e8505-ac07-4f86-8d5c-db240d20f680 (Content-Type: application/octet-stream)
+2025-11-27 12:39:14,376 [INFO] Saved 830093 bytes to downloads\2VALORISE_5493002PV2OV5MP41Y57_AnnualReport_2016-04-26.pdf
+2025-11-27 12:39:14,376 [INFO] Downloading 2VALORISE (LEI=5493002PV2OV5MP41Y57) → downloads\2VALORISE_5493002PV2OV5MP41Y57_AnnualReport_2015-04-21.pdf
+2025-11-27 12:39:14,377 [INFO] Downloading fileDataId=6c10dca6-51ec-4d1f-a007-7017ea485c36 from https://webapi.fsma.be/api/v1/en/stori/download
+2025-11-27 12:39:17,893 [INFO] Downloaded 1100360 bytes for fileDataId=6c10dca6-51ec-4d1f-a007-7017ea485c36 (Content-Type: application/octet-stream)
+2025-11-27 12:39:17,899 [INFO] Downloading fileDataId=31f98d87-9cab-46e8-acba-dc667f47fd54 from https://webapi.fsma.be/api/v1/en/stori/download
+2025-11-27 12:39:19,617 [INFO] Downloaded 812525 bytes for fileDataId=31f98d87-9cab-46e8-acba-dc667f47fd54 (Content-Type: application/octet-stream)
+2025-11-27 12:39:19,619 [INFO] Saved 812525 bytes to downloads\2VALORISE_5493002PV2OV5MP41Y57_AnnualReport_2014-04-22.pdf
+2025-11-27 12:39:19,620 [INFO] Finished. Total PDFs downloaded: 5
+PS C:\Users\goldn\Documents\Webscraping pipeline> >>>>
