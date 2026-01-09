@@ -1,12 +1,4 @@
- 
-
-* what the project does
-* why it exists
-* how it works
-* how to run it
-* how it can be extended (especially to healthcare APIs)
-
-This is **research-grade documentation**, not a student README.
+  
 
 ---
 
